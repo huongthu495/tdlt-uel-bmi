@@ -6,8 +6,8 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>900</width> <!-- Tăng kích thước cửa sổ -->
-    <height>650</height>
+    <width>800</width>
+    <height>600</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -17,7 +17,7 @@
    <widget class="QLabel" name="label_6">
     <property name="geometry">
      <rect>
-      <x>570</x>
+      <x>560</x>
       <y>230</y>
       <width>55</width>
       <height>16</height>
@@ -37,7 +37,7 @@
     <property name="geometry">
      <rect>
       <x>400</x>
-      <y>500</y> <!-- Thay đổi vị trí nút Close -->
+      <y>430</y>
       <width>111</width>
       <height>41</height>
      </rect>
@@ -48,24 +48,6 @@
     <property name="icon">
      <iconset>
       <normaloff>../LearnQPushButton/images/8664836_id_card_icon.png</normaloff>../LearnQPushButton/images/8664836_id_card_icon.png</iconset>
-    </property>
-   </widget>
-   <widget class="QPushButton" name="pushButtonReset">
-    <!-- Nút mới để Reset giá trị các trường -->
-    <property name="geometry">
-     <rect>
-      <x>250</x>
-      <y>500</y>
-      <width>111</width>
-      <height>41</height>
-     </rect>
-    </property>
-    <property name="text">
-     <string>Reset</string>
-    </property>
-    <property name="icon">
-     <iconset>
-      <normaloff>../LearnQPushButton/images/reset_icon.png</normaloff>../LearnQPushButton/images/reset_icon.png</iconset>
     </property>
    </widget>
    <widget class="QLabel" name="label_8">
@@ -90,7 +72,7 @@
    <widget class="QLabel" name="label">
     <property name="geometry">
      <rect>
-      <x>570</x>
+      <x>560</x>
       <y>160</y>
       <width>55</width>
       <height>16</height>
@@ -138,7 +120,7 @@
    <widget class="QLabel" name="label_7">
     <property name="geometry">
      <rect>
-      <x>570</x>
+      <x>560</x>
       <y>310</y>
       <width>55</width>
       <height>16</height>
@@ -181,10 +163,10 @@
      </rect>
     </property>
     <property name="styleSheet">
-     <string notr="true">background-color: rgb(200, 255, 200);</string>
+     <string notr="true">background-color: rgb(255, 255, 0);</string>
     </property>
     <property name="text">
-     <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align="center"&gt;&lt;span style=" font-size:18pt; font-weight:600;"&gt;BMI Application&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+     <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:18pt; font-weight:600;&quot;&gt;BMI Application&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
     </property>
    </widget>
    <widget class="QLabel" name="labelBMI">
@@ -267,7 +249,7 @@
     <rect>
      <x>0</x>
      <y>0</y>
-     <width>900</width>
+     <width>800</width>
      <height>26</height>
     </rect>
    </property>
