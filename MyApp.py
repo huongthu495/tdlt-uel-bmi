@@ -4,5 +4,5 @@ from MainWindowEx import MainWindowEx
 app=QApplication([])
 myWindow= MainWindowEx()
 myWindow.setupUi(QMainWindow())
-Window.show()
+myWindow.show()
 app.exec()
